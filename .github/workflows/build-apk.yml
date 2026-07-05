@@ -32,7 +32,6 @@ jobs:
           name: RecordatorioTareas-apk
           path: app/build/outputs/apk/debug/*.apk
           
-RecordatorioTareas/
 ├── .github/workflows/build-apk.yml   <- compila el APK automáticamente en GitHub
 ├── app/
 │   ├── build.gradle.kts          <- dependencias del módulo
