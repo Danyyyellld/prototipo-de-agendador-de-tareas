@@ -14,3 +14,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "RecordatorioTareas"
 include(":app")
+project(":app").projectDir = File(rootDir, "aplicación")
