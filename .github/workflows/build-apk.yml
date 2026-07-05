@@ -31,21 +31,3 @@ jobs:
         with:
           name: RecordatorioTareas-apk
           path: app/build/outputs/apk/debug/*.apk
-          
-├── .github/workflows/build-apk.yml   <- compila el APK automáticamente en GitHub
-├── app/
-│   ├── build.gradle.kts          <- dependencias del módulo
-│   └── src/main/
-│       ├── AndroidManifest.xml   <- permisos de la app
-│       ├── java/com/tuapp/recordatorio/
-│       │   ├── MainActivity.kt         <- pantalla principal (Compose)
-│       │   ├── Task.kt                 <- modelo de una tarea
-│       │   ├── TaskRepository.kt        <- guarda las tareas en el teléfono
-│       │   ├── CalendarHelper.kt        <- crea eventos en el Calendario
-│       │   └── ClaudeVisionClient.kt    <- llama a la IA de Claude
-│       └── res/
-│           ├── values/strings.xml
-│           ├── values/themes.xml
-│           └── xml/file_paths.xml
-├── build.gradle.kts
-└── settings.gradle.kts
